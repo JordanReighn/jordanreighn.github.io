@@ -9599,6 +9599,11 @@ textarea.form-control {
         justify-content: space-between;
     }
 
+    .heading-section {
+      padding-top: 50px; /* Adjust this value as needed */
+      padding-bottom: 50px; /* Adjust this value as needed */
+  }
+
 #ftco-loader {
   position: fixed;
   width: 96px;
