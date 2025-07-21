@@ -40,12 +40,13 @@
 	          <li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li>
 	          <li class="nav-item"><a href="#skills-section" class="nav-link"><span>Skills</span></a></li>
 	          <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
-	          <li class="nav-item"><a href="#blog-section" class="nav-link"><span>My Blog</span></a></li>
+	          <!-- <li class="nav-item"><a href="#blog-section" class="nav-link"><span>My Blog</span></a></li> -->
 	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
 	        </ul>
 	      </div>
 	    </div>
 	  </nav>
+	  
 	  <section id="home-section" class="hero">
 		  <div class="home-slider  owl-carousel">
 	      <div class="slider-item ">
@@ -173,7 +174,7 @@
                     </div>
                     <div class="resume-wrap ftco-animate">
                         <span class="date">2022-Present</span>
-                        <h2>Software Engineer</h2>
+                        <h2>Independant Contractor</h2>
                         <span class="position">Monichron</span>
                         <p class="mt-4">Currently, I am working as a fullstack Software Engineer at Monichron. Here I have delivered multiple projects across multiple platforms.</p>
                     </div>
@@ -344,77 +345,296 @@
 		</section>
  
 
-    <section class="ftco-section ftco-project" id="projects-section">
-    	<div class="container">
-			<div class="row justify-content-center pb-5">
-				<div class="col-md-12 heading-section text-center ftco-animate">
-					<h1 class="big big-2">Projects</h1>
-					<h2 class="mb-4">Our Projects</h2>
-					<p>Completing projects is not just about finishing tasks; it's about bringing visions to life, turning ideas into reality, and achieving milestones that pave the way for future successes.</p>
-				</div>
-			</div>
-    		<div class="row">
-    			<div class="col-md-4">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/FlightLineLogo.png);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="#">FlightLine Aviation Software</a></h3>
-	    					<span>Cross Platform Mobile Development</span>
-	    				</div>
-    				</div>
-  				</div>
-  				<div class="col-md-8">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/RTT.png);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="#">RTT Logistics</a></h3>
-	    					<span>.NET Core Web Application</span>
-	    				</div>
-    				</div>
-  				</div>
+<section class="portfolio section" id="projects-section">
+  <div class="container">
+    <div class="row">
+      <div class="section-title padd-15">
+        <h2>My Projects</h2>
+        <p>Explore some of my key projects, showcasing my expertise in cross-platform mobile development, API design, and innovative software solutions.</p>
+      </div>
+    </div>
+    <div class="row portfolio-grid">
+      <!-- First Row - FlightLine and PinPlot (both wide logos) -->
+      <div class="wide-projects-row">
+        <!-- Project 1: FlightLine -->
+        <div class="portfolio-card wide-card">
+          <div class="card-inner shadow-dark">
+            <div class="card-header">
+              <img src="images/flightlinelong.png" alt="FlightLine Aviation Software" class="project-logo wide-logo">
+              <h3 class="project-title">FlightLine Aviation Software</h3>
+            </div>
+            <div class="card-body">
+              <p class="project-description">My first public cross-platform mobile application built using Xamarin, FlightLine is available on both the <a href="https://play.google.com/store/apps/details?id=com.flightline" target="_blank">Android</a> and <a href="https://apps.apple.com/app/flightline" target="_blank">iOS</a> stores. The app streamlines aviation management with a custom Node.js API and a Microsoft MySQL database, ensuring robust performance and scalability.</p>
+              <div class="project-details">
+                <h4>Key Details</h4>
+                <ul>
+                  <li><strong>Technologies:</strong> Xamarin, Node.js, Microsoft MySQL</li>
+                  <li><strong>Platforms:</strong> Android, iOS</li>
+                  <li><strong>Features:</strong> Real-time aviation data, user-friendly interface</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card-footer">
+              <a href="http://www.flightline.co.za" target="_blank" class="btn btn-primary">Visit Project</a>
+            </div>
+          </div>
+        </div>
 
-    			<div class="col-md-8">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-1.jpg);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="#">Styex SeekerPro Tracking Application</a></h3>
-	    					<span>Cross Platform Mobile Development</span>
-	    				</div>
-    				</div>
+        <!-- Project 2: PinPlot -->
+        <div class="portfolio-card wide-card">
+          <div class="card-inner shadow-dark">
+            <div class="card-header">
+              <img src="images/pinplotlogo.png" alt="PinPlot Tracking Software" class="project-logo wide-logo">
+              <h3 class="project-title">PinPlot Tracking Software</h3>
+            </div>
+            <div class="card-body">
+              <p class="project-description">PinPlot is a tracking application built using .NET MAUI, integrated with a custom instance of the open-source <a href="https://www.traccar.org/" target="_blank">Traccar</a> platform running on our own server. The app provides real-time location tracking and reporting, with a focus on a seamless user experience across Android and iOS devices.</p>
+              <div class="project-details">
+                <h4>Key Details</h4>
+                <ul>
+                  <li><strong>Technologies:</strong> .NET MAUI, Traccar, Custom Server</li>
+                  <li><strong>Platforms:</strong> Android, iOS</li>
+                  <li><strong>Features:</strong> Real-time tracking, custom server integration</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card-footer">
+              <a href="https://www.traccar.org/" target="_blank" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
 
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-6.jpg);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="#">Autocad PlantMe Project</a></h3>
-	    					<span>Autocad Plugin Development</span>
-	    				</div>
-    				</div>
-    			</div>
-    			<div class="col-md-4">
-    				<div class="row">
-    					<div class="col-md-12">
-		    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-2.jpg);">
-		    					<div class="overlay"></div>
-			    				<div class="text text-center p-4">
-			    					<h3><a href="#">RSA Market Group</a></h3>
-			    					<span>Cross Platform Mobile Application</span>
-			    				</div>
-		    				</div>
-	    				</div>
-	    				<div class="col-md-12">
-		    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-3.jpg);">
-		    					<div class="overlay"></div>
-			    				<div class="text text-center p-4">
-			    					<h3><a href="#">MiDevice Development</a></h3>
-			    					<span>Python project through Raspberry Pi 3</span>
-			    				</div>
-		    				</div>
-	    				</div>
-    				</div>
-    			</div>
-    		</div>
-    	</div>
-    </section>
+      <!-- Second Row - RTT (wide) and Lumme (square) -->
+      <div class="mixed-projects-row">
+        <!-- Project 3: RTT -->
+        <div class="portfolio-card mixed-wide-card">
+          <div class="card-inner shadow-dark">
+            <div class="card-header" style="min-height: 120px;">
+              <img src="images/rttlogo.png" alt="RTT Management System" class="project-logo wide-logo">
+              <h3 class="project-title">RTT Management System</h3>
+            </div>
+            <div class="card-body">
+              <p class="project-description">An ASP.NET Core web application with DevExpress components, integrated with Microsoft Graph for user access and Power Platform connectivity. The system provides comprehensive HR controls including leave management, and features specialized functionality for capturing driver timesheets with role-based access to various analytics dashboards.</p>
+              <div class="project-details">
+                <h4>Key Details</h4>
+                <ul>
+                  <li><strong>Technologies:</strong> ASP.NET Core, DevExpress, Microsoft Graph, Power Platform</li>
+                  <li><strong>Platforms:</strong> Web</li>
+                  <li><strong>Features:</strong> HR controls, timesheet management, role-based analytics</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4: Lumme -->
+        <div class="portfolio-card mixed-square-card">
+          <div class="card-inner shadow-dark">
+            <div class="card-header" style="min-height: 120px;">
+              <img src="images/lummelogo.png" alt="Lumme Mental Health App" class="project-logo square-logo">
+              <h3 class="project-title">Lumme Mental Health App</h3>
+            </div>
+            <div class="card-body">
+              <p class="project-description">Lumme is my most recent project, a .NET MAUI application built on .NET 8, designed to provide accessible mental health support through AI-driven therapy tools. It features a robust ASP.NET Core API and MySQL database, with offline sync capabilities using encrypted SQLite.</p>
+              <div class="project-details">
+                <h4>Key Details</h4>
+                <ul>
+                  <li><strong>Technologies:</strong> .NET 8, .NET MAUI, ASP.NET Core, MySQL, SQLite</li>
+                  <li><strong>Platforms:</strong> Android, iOS</li>
+                  <li><strong>Features:</strong> AI chatbot for CBT, mood tracking, company dashboard, offline sync</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Coming Soon</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .portfolio-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+  }
+
+  .wide-projects-row,
+  .mixed-projects-row {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: stretch; /* Ensure cards stretch to same height */
+  }
+
+  .portfolio-card {
+    background: #1a1a1a;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .wide-card {
+    width: calc(50% - 15px);
+    max-width: 550px;
+  }
+
+  .mixed-wide-card {
+    width: 60%;
+    max-width: 650px;
+  }
+
+  .mixed-square-card {
+    width: 40%;
+    max-width: 450px;
+  }
+
+  .card-inner {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex-grow: 1;
+  }
+
+  .card-header {
+    padding: 20px 20px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .project-logo {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    object-fit: contain;
+  }
+
+  .wide-logo {
+    width: 100%;
+    max-height: 100px; /* Reduced from 150px for better alignment */
+  }
+
+  .square-logo {
+    width: 150px; /* Reduced from 200px for better alignment */
+    height: 150px;
+  }
+
+  .project-title {
+    color: #febe3a;
+    margin: 10px 0;
+    font-size: 1.5rem;
+  }
+
+  .card-body {
+    padding: 0 20px;
+    flex-grow: 1;
+  }
+
+  .project-description {
+    color: #ffffff;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+
+  .project-description a {
+    color: #febe3a;
+    text-decoration: none;
+  }
+
+  .project-description a:hover {
+    text-decoration: underline;
+  }
+
+  .project-details {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  .project-details h4 {
+    color: #febe3a;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .project-details ul {
+    color: #ffffff;
+    padding-left: 20px;
+    margin: 0;
+  }
+
+  .project-details li {
+    margin-bottom: 8px;
+    line-height: 1.4;
+  }
+
+  .card-footer {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .btn-primary {
+    display: inline-block;
+    padding: 10px 25px;
+    background: #febe3a;
+    color: #1a1a1a;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+
+  .btn-primary:hover {
+    background: #ffcc5e;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(254, 190, 58, 0.3);
+  }
+
+  @media (max-width: 992px) {
+    .mixed-wide-card,
+    .mixed-square-card {
+      width: calc(50% - 15px);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .wide-projects-row,
+    .mixed-projects-row {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .wide-card,
+    .mixed-wide-card,
+    .mixed-square-card {
+      width: 100%;
+      max-width: 100%;
+    }
+    
+    .wide-logo {
+      max-height: 150px;
+    }
+    
+    .square-logo {
+      width: 200px;
+      height: 200px;
+    }
+  }
+</style>
 
     <section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
     	<div class="container">
@@ -446,7 +666,7 @@
           <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
             <div class="block-18">
               <div class="text">
-                <strong class="number" data-number="1500">0</strong>
+                <strong class="number" data-number="1000">∞</strong>
                 <span>Cups of coffee</span>
               </div>
             </div>
